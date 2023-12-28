@@ -2,24 +2,24 @@ import pandas as pd
 from ucimlrepo import fetch_ucirepo 
   
 # fetch dataset 
-wine_quality = fetch_ucirepo(id=186) 
+rice_cammeo_and_osmancik = fetch_ucirepo(id=545) 
   
 # data (as pandas dataframes) 
-X = wine_quality.data.features 
-y = wine_quality.data.targets 
+X = rice_cammeo_and_osmancik.data.features 
+y = rice_cammeo_and_osmancik.data.targets 
   
 # metadata 
-print(wine_quality.metadata) 
+print(rice_cammeo_and_osmancik.metadata) 
   
 # variable information 
-print(wine_quality.variables) 
+print(rice_cammeo_and_osmancik.variables) 
 
 
 
 # Zapis do pliku Excel
 data_combined = pd.concat([X, y], axis=1)  # Łączenie cech i etykiet
 
-excel_file_path = 'wine.xlsx'  # Nazwa pliku Excel
+excel_file_path = 'rice.xlsx'  # Nazwa pliku Excel
 
 # Zapis do pliku Excel
 data_combined.to_excel(excel_file_path, index=False)
