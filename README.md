@@ -16,3 +16,4 @@ Mając do dyspozycji dane dotyczące dwóch gatunków ryżu, chcieliśmy dokona�
 - `rice.xlsx` - dane z repozytorium Machine Learning
 - `rice.ipynb` -  plik Jupyer przedstawiający proces klasyfikacji danych
 - `rice.html` - wygenerowany raport na podstawie plikut `rice.ipynb`
+- `requirements.txt` - wymagane biblioteki do kompilacji kodu
