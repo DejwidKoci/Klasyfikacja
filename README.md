@@ -1,7 +1,7 @@
 # Klasyfikacja danych
 Link do danych: https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik
 
-Praca przedstawia próbę analizy i klasyfikacji obserwacji z wybranego repozytorium Machine Learningu dostępne tutaj.
+Praca przedstawia próbę analizy i klasyfikacji obserwacji z wybranego repozytorium Machine Learningu.
 Proces przetwarzania danych zawiera wstępną analizę danych w postaci obliczenia statystyk opisowych, standaryzacji zmiennych oraz wykorzystanie modeli klasyfikacyjnych (regresji liniowej, SVM, KNN, sieci neuronowych, lasów losowych, drzew decyzyjnych, LDA, QDA) by przyporządkować obseracje do konkretnej kategorii.
 Na koniec robimy podsumowanie naszych wyników w postaci zestawienia tabelarycznego poszczególnych wskaźników określających dokładność dopasowania kategorii naszych obserwacji.
 
